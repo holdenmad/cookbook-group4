@@ -38,9 +38,9 @@
 6. Footer
 
 ## Work packages
-- Header & Footer
-- Middle of front page
-- Middle of recipe page
+- Header & Footer (Niklas)
+- Middle of front page (Madlen)
+- Middle of recipe page (Holden)
 
 
 ## Recipe Page
