@@ -24,7 +24,7 @@
    1. Menu - top left
    2. Search bar - right of menu
 2. Banner image that is random or scrolls through different (with JS)
-3. 
+3. Middle part with recipe cards
 4. Footer
 
 ## Layout Recipe Page
