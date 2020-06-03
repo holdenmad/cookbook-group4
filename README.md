@@ -6,6 +6,7 @@
 2. Allow collaborators
 3. Talk about layout
 4. Decide which library (Bootstrap, etc.?)
+   1. Either take it directly from website or download it and include the CSS file
 5. Speak with each other to see who wants to do what
    1. Who prefers to do what
 6. Use google drawings to figure out layout
@@ -18,21 +19,28 @@
 5. 
 
 
-## Layout
+## Layout Front Page
 1. Header:
    1. Menu - top left
    2. Search bar - right of menu
-   3. Banner image that is random or scrolls through different 
-2. 
-3. Footer:
+2. Banner image that is random or scrolls through different (with JS)
+3. 
+4. Footer
 
+## Layout Recipe Page
+1. Header:
+   1. Menu - top left
+   2. Search bar - right of menu
+2. Image
+3. Ingredients left side
+4. Recipe instructions
+5. Share button
+6. Footer
 
-
-## Arbeitspaket:
-- Header
-- Footer
-- Mittelteil auf Front Page
-- Mittelteil auf Recipe Page
+## Work packages
+- Header & Footer
+- Middle of front page
+- Middle of recipe page
 
 
 ## Recipe Page
