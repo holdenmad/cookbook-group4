@@ -17,7 +17,6 @@
 2. Figure out CSS tags that we need
 3. Make menu and search bar
 4. Make grid
-5. 
 
 
 ## Layout Front Page
@@ -38,7 +37,7 @@
 5. Share button
 6. Footer
 
-## Work packages
+## Work packages (who does what)
 - Header & Footer (Niklas)
 - Middle of front page (Madlen)
 - Middle of recipe page (Holden)
