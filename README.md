@@ -50,4 +50,4 @@
 4. Small share button at the button
    1. With JS DOM Manipulation
 5. "Share with your friends" with form element next to it
-6. 
+
