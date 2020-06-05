@@ -10,6 +10,7 @@
 5. Speak with each other to see who wants to do what
    1. Who prefers to do what
 6. Use google drawings to figure out layout
+7. Use Bootstrap CDN for styling (try to use as much as possible)
 
 ## Tasks
 1. Make skeleton of HTML
