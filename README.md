@@ -51,3 +51,7 @@
    1. With JS DOM Manipulation
 5. "Share with your friends" with form element next to it
 
+## Class names
+
+- Name classes with "name-page-number"
+- 

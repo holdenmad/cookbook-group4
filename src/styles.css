@@ -4,8 +4,6 @@ body {
   font-family: sans-serif;
 }
 
-<<<<<<< HEAD
-=======
 
 /* Header */
 
@@ -13,4 +11,10 @@ body {
 
 /* Recipe Page Main */
 
->>>>>>> master
+sidebar-recipe-page {
+  width: 20%;
+  display: flex;
+  flex-flow: column wrap;
+  float: left;
+}
+
