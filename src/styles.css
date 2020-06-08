@@ -4,6 +4,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+<<<<<<< HEAD
 
 /* Header */
 
@@ -15,3 +16,14 @@ body {
   
 }
 
+=======
+/* Main */
+.container-main {
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  margin: 2rem auto;
+}
+>>>>>>> baf16748875771300ef566748670d8e85414ed34
