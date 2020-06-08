@@ -54,4 +54,6 @@
 ## Class names
 
 - Name classes with "name-page-number"
-- 
+
+## Recipes to use
+Vegan Welling Recipe: https://www.yummly.com/recipe/Vegan-Wellington-2620423#directions
