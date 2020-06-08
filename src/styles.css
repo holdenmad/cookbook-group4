@@ -1,7 +1,7 @@
 /* General */
 
 body {
-  font-family: sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -11,10 +11,7 @@ body {
 
 /* Recipe Page Main */
 
-sidebar-recipe-page {
-  width: 20%;
-  display: flex;
-  flex-flow: column wrap;
-  float: left;
+#wellington-pic {
+  
 }
 
