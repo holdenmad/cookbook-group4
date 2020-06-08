@@ -1,6 +1,7 @@
 /* General */
 
 body {
+<<<<<<< HEAD
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -17,6 +18,46 @@ body {
 }
 
 =======
+=======
+  font-family: sans-serif;
+  background-color: #d4d4d4;
+}
+
+
+/* Header */
+
+.headerlayout {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.searchsize {
+  max-width: 40vw;
+}
+
+.logosize {
+  min-width: 100px;
+  min-height: 100px;
+}
+
+#magenta {
+  color: purple;
+  font-family: "Pacifico", cursive;
+}
+
+.inline {
+  display: inline;
+}
+
+/* Footer* /
+
+/* Recipe Page Main */
+
+>>>>>>> e38553dd2cf779a8d03ce38a856eb843086230e5
 /* Main */
 .container-main {
   max-width: 1600px;
@@ -26,4 +67,8 @@ body {
   grid-column-gap: 20px;
   margin: 2rem auto;
 }
+<<<<<<< HEAD
 >>>>>>> baf16748875771300ef566748670d8e85414ed34
+=======
+
+>>>>>>> e38553dd2cf779a8d03ce38a856eb843086230e5
