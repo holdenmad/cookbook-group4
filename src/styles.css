@@ -4,13 +4,12 @@ body {
   font-family: sans-serif;
 }
 
-<<<<<<< HEAD
-=======
-
-/* Header */
-
-/* Footer* /
-
-/* Recipe Page Main */
-
->>>>>>> master
+/* Main */
+.container-main {
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  margin: 2rem auto;
+}
