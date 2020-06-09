@@ -1,8 +1,8 @@
 /* General */
 
 body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #d4d4d4;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f2f2f2;
 }
 
 /* Header */
@@ -12,7 +12,6 @@ body {
 /* Recipe Page Main */
 
 #wellington-pic {
-  
 }
 
 /* Header */
@@ -47,7 +46,6 @@ body {
 /* Footer* /
 
 /* Recipe Page Main */
-
 
 /* Main */
 .container-main {
