@@ -34,40 +34,50 @@
       crossorigin="anonymous"
     ></script>
 
-    <header class="headerlayout">
-      <!-- Dropdown menu -->
-      <span class="dropdown" id="magenta">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          Browse
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+    <header id="headerpicture">
+      <nav class="col-6">
+        <!-- Dropdown menu -->
+        <div class="headerlayout">
+          <span class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Browse
+            </button>
+            <div
+              id="offwhite"
+              class="dropdown-menu"
+              aria-labelledby="dropdownMenuButton"
+            >
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </span>
+
+          <!-- Search form -->
+          <form class="form-inline headerlayout">
+            <input
+              class="form-control mr-sm-2 searchsize"
+              type="search"
+              placeholder="Find a recipe..."
+              aria-label="Search"
+              id="offwhite"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
         </div>
-      </span>
-
-      <!-- Search form -->
-      <input
-        class="form-control searchsize"
-        type="text"
-        placeholder="Find a recipe..."
-        aria-label="Search"
-        id="magenta"
-      />
-      <div>
-        <h1 class="inline" id="magenta">#1 Cookbook</h1>
-        <img class="logosize" src="src/images/lnr-mustache copy.svg" />
-      </div>
+        <h1 class="headerlayout" id="cookbooktitle">#1 Cookbook</h1>
+      </nav>
+      <hr class="thickbar" />
     </header>
-
 
     <div class="container-main">
       <div class="card" style="width: 30rem;">
@@ -127,6 +137,5 @@
         </div>
       </div>
     </div>
-
   </body>
 </html>
