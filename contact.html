@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>#1 Cookbook</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <script src="src/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <header id="headerpicture">
+      <nav class="col-6 smallmarg">
+        <div class="headerlayout">
+          <!-- Dropdown menu -->
+          <span class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Browse
+            </button>
+            <div
+              id="offwhite"
+              class="dropdown-menu"
+              aria-labelledby="dropdownMenuButton"
+            >
+              <a class="dropdown-item" href="index.html">Home</a>
+              <a class="dropdown-item" href="recipe-page.html"
+                >Vegan Wellington</a
+              >
+              <a class="dropdown-item" href="recipe-page2.html"
+                >Spaghetti Bolognese</a
+              >
+              <a class="dropdown-item" href="recipe-page3.html"
+                >Perfect Medium Steak</a
+              >
+              <a class="dropdown-item" href="contact.html">Contact</a>
+            </div>
+          </span>
+
+          <!-- Search form -->
+          <form class="form-inline headerlayout">
+            <input
+              class="form-control mr-sm-2 searchsize"
+              type="search"
+              placeholder="Find a recipe..."
+              aria-label="Search"
+              id="offwhite"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+        <h1 class="headerlayout" id="cookbooktitle">#1 Cookbook</h1>
+      </nav>
+      <hr class="thickbar" />
+    </header>
+  </body>
+</html>
+
+<div class="container my-3">
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Your message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your cookbook is great! I love it <3" rows="3"></textarea>
+    </div>
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+        Send
+      </button>
+  </form>
+</div>
+
+<footer class="footerlayout">
+  <div id="footerflex">
+    <span>
+      <p class="footera1">#1 Cookbook</p>
+      <p class="footera2">
+        Hauptstraße 123 <br />
+        10777 Berlin - info@1cookbook.com
+      </p>
+    </span>
+    <span id="footergrid1">
+      <span id="twitter"></span>
+      <span id="facebook"></span>
+      <span id="pinterest"></span>
+    </span>
+    <span id="footerlayout2">
+      <span class="footera3">Handcrafted by</span>
+      <span class="yebo">#Group4</span>
+    </span>
+  </div>
+</footer>
+</body>
+</html>
