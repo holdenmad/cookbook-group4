@@ -34,141 +34,152 @@
       crossorigin="anonymous"
     ></script>
 
-    <header id="headerpicture">
-      <nav>
-        <div class="headerlayout">
-          <!-- Dropdown menu -->
-          <span class="dropdown">
-            <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Browse
-            </button>
-            <div
-              class="dropdown-menu offwhite"
-              aria-labelledby="dropdownMenuButton"
-            >
-              <a class="dropdown-item" href="index.html">Home</a>
-              <a class="dropdown-item" href="recipe-page.html"
-                >Vegan Wellington</a
-              >
-              <a class="dropdown-item" href="recipe-page2.html"
-                >Spaghetti Bolognese</a
-              >
-              <a class="dropdown-item" href="recipe-page3.html"
-                >Perfect Medium Steak</a
-              >
-              <a class="dropdown-item" href="contact.html">Contact</a>
+    <div class="d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column">
+      <div class="p2">
+        <header id="headerpicture">
+          <nav>
+            <div class="headerlayout">
+              <!-- Dropdown menu -->
+              <span class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Browse
+                </button>
+                <div
+                  class="dropdown-menu offwhite"
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <a class="dropdown-item" href="index.html">Home</a>
+                  <a class="dropdown-item" href="recipe-page.html"
+                    >Vegan Wellington</a
+                  >
+                  <a class="dropdown-item" href="recipe-page2.html"
+                    >Spaghetti Bolognese</a
+                  >
+                  <a class="dropdown-item" href="recipe-page3.html"
+                    >Perfect Medium Steak</a
+                  >
+                  <a class="dropdown-item" href="contact.html">Contact</a>
+                </div>
+              </span>
+
+              <!-- Search form -->
+              <form class="form-inline headerlayout">
+                <input
+                  class="form-control mr-sm-2 searchsize offwhite"
+                  type="search"
+                  placeholder="Find a recipe..."
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-outline-success my-2 my-sm-0"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form>
             </div>
-          </span>
+            <h1 class="headerlayout" id="cookbooktitle">#1 Cookbook</h1>
+          </nav>
+          <hr class="thickbar" />
+        </header>
+      </div>
 
-          <!-- Search form -->
-          <form class="form-inline headerlayout">
-            <input
-              class="form-control mr-sm-2 searchsize offwhite"
-              type="search"
-              placeholder="Find a recipe..."
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-        <h1 class="headerlayout" id="cookbooktitle">#1 Cookbook</h1>
-      </nav>
-      <hr class="thickbar" />
-    </header>
+      <div class="p2">
+        <div class="container my-3">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <div class="card shadow-lg mb-3">
+                <a href="recipe-page.html">
+                  <img
+                    src="src/images/vegan-wellington-pic.jpeg"
+                    class="card-img-top"
+                    alt="Vegan Wellington"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Vegan Wellington</h5>
+                  <p class="card-text">
+                    If you haven’t tried a Vegan Wellington before, you may want
+                    to try it out this year. It really makes a statement!
+                  </p>
+                </div>
+              </div>
+            </div>
 
-    <div class="container my-3">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-          <div class="card shadow-lg mb-3">
-            <a href="recipe-page.html">
-              <img
-                src="src/images/vegan-wellington-pic.jpeg"
-                class="card-img-top"
-                alt="Vegan Wellington"
-              />
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">Vegan Wellington</h5>
-              <p class="card-text">
-                If you haven’t tried a Vegan Wellington before, you may want to
-                try it out this year. It really makes a statement!
-              </p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <div class="card shadow-lg mb-3">
+                <a href="recipe-page2.html">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2018/06/02/16/13/food-3448663_960_720.jpg"
+                    class="card-img-top"
+                    alt="Spaghetti Bolognese"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Spaghetti Bolognese</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Temporibus omnis necessitatibus tempora sit odio facere
+                    accusamus amet beatae eum dolores, qui, porro id, placeat
+                    expedita? Suscipit quis eveniet quo minima.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+              <div class="card shadow-lg mb-3">
+                <a href="recipe-page3.html">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2018/11/16/11/37/steak-3819246_960_720.jpg"
+                    class="card-img-top"
+                    alt="Perfect Medium Steak"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Perfect Medium Steak</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Temporibus omnis necessitatibus tempora sit odio facere
+                    accusamus amet beatae eum dolores, qui, porro id, placeat
+                    expedita? Suscipit quis eveniet quo minima.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-          <div class="card shadow-lg mb-3">
-            <a href="recipe-page2.html">
-              <img
-                src="https://cdn.pixabay.com/photo/2018/06/02/16/13/food-3448663_960_720.jpg"
-                class="card-img-top"
-                alt="Spaghetti Bolognese"
-              />
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">Spaghetti Bolognese</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus omnis necessitatibus tempora sit odio facere
-                accusamus amet beatae eum dolores, qui, porro id, placeat
-                expedita? Suscipit quis eveniet quo minima.
+      <div class="p2">
+        <footer class="footerlayout">
+          <div id="footerflex">
+            <span>
+              <p class="footera1">#1 Cookbook</p>
+              <p class="footera2">
+                Hauptstraße 123 <br />
+                10777 Berlin - info@1cookbook.com
               </p>
-            </div>
+            </span>
+            <span id="footergrid1">
+              <span id="twitter"></span>
+              <span id="facebook"></span>
+              <span id="pinterest"></span>
+            </span>
+            <span id="footerlayout2">
+              <span class="footera3">Handcrafted by</span>
+              <span class="yebo">#Group4</span>
+            </span>
           </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-          <div class="card shadow-lg mb-3">
-            <a href="recipe-page3.html">
-              <img
-                src="https://cdn.pixabay.com/photo/2018/11/16/11/37/steak-3819246_960_720.jpg"
-                class="card-img-top"
-                alt="Perfect Medium Steak"
-              />
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">Perfect Medium Steak</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus omnis necessitatibus tempora sit odio facere
-                accusamus amet beatae eum dolores, qui, porro id, placeat
-                expedita? Suscipit quis eveniet quo minima.
-              </p>
-            </div>
-          </div>
-        </div>
+        </footer>
       </div>
     </div>
-
-    <footer class="footerlayout">
-      <div id="footerflex">
-        <span>
-          <p class="footera1">#1 Cookbook</p>
-          <p class="footera2">
-            Hauptstraße 123 <br />
-            10777 Berlin - info@1cookbook.com
-          </p>
-        </span>
-        <span id="footergrid1">
-          <span id="twitter"></span>
-          <span id="facebook"></span>
-          <span id="pinterest"></span>
-        </span>
-        <span id="footerlayout2">
-          <span class="footera3">Handcrafted by</span>
-          <span class="yebo">#Group4</span>
-        </span>
-      </div>
-    </footer>
   </body>
 </html>

@@ -34,96 +34,117 @@
       crossorigin="anonymous"
     ></script>
 
-    <header id="headerpicture">
-      <nav class="col-6 smallmarg">
-        <div class="headerlayout">
-          <!-- Dropdown menu -->
-          <span class="dropdown">
-            <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Browse
-            </button>
-            <div
-              id="offwhite"
-              class="dropdown-menu"
-              aria-labelledby="dropdownMenuButton"
-            >
-              <a class="dropdown-item" href="index.html">Home</a>
-              <a class="dropdown-item" href="recipe-page.html"
-                >Vegan Wellington</a
-              >
-              <a class="dropdown-item" href="recipe-page2.html"
-                >Spaghetti Bolognese</a
-              >
-              <a class="dropdown-item" href="recipe-page3.html"
-                >Perfect Medium Steak</a
-              >
-              <a class="dropdown-item" href="contact.html">Contact</a>
-            </div>
-          </span>
+    <div
+      class="d-sm-flex d-md-flex d-lg-flex d-xl-flex flex-column align-items-xl-stretch"
+    >
+      <div class="p2">
+        <header id="headerpicture">
+          <nav class="col-6 smallmarg">
+            <div class="headerlayout">
+              <!-- Dropdown menu -->
+              <span class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Browse
+                </button>
+                <div
+                  id="offwhite"
+                  class="dropdown-menu"
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <a class="dropdown-item" href="index.html">Home</a>
+                  <a class="dropdown-item" href="recipe-page.html"
+                    >Vegan Wellington</a
+                  >
+                  <a class="dropdown-item" href="recipe-page2.html"
+                    >Spaghetti Bolognese</a
+                  >
+                  <a class="dropdown-item" href="recipe-page3.html"
+                    >Perfect Medium Steak</a
+                  >
+                  <a class="dropdown-item" href="contact.html">Contact</a>
+                </div>
+              </span>
 
-          <!-- Search form -->
-          <form class="form-inline headerlayout">
-            <input
-              class="form-control mr-sm-2 searchsize"
-              type="search"
-              placeholder="Find a recipe..."
-              aria-label="Search"
-              id="offwhite"
-            />
+              <!-- Search form -->
+              <form class="form-inline headerlayout">
+                <input
+                  class="form-control mr-sm-2 searchsize"
+                  type="search"
+                  placeholder="Find a recipe..."
+                  aria-label="Search"
+                  id="offwhite"
+                />
+                <button
+                  class="btn btn-outline-success my-2 my-sm-0"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form>
+            </div>
+            <h1 class="headerlayout" id="cookbooktitle">#1 Cookbook</h1>
+          </nav>
+          <hr class="thickbar" />
+        </header>
+      </div>
+
+      <div class="p2">
+        <div class="container my-3">
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Your message</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Your cookbook is great! I love it <3"
+                rows="10"
+              ></textarea>
+            </div>
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
+              Send
             </button>
           </form>
         </div>
-        <h1 class="headerlayout" id="cookbooktitle">#1 Cookbook</h1>
-      </nav>
-      <hr class="thickbar" />
-    </header>
+      </div>
+
+      <div class="p2">
+        <footer class="footerlayout">
+          <div id="footerflex">
+            <span>
+              <p class="footera1">#1 Cookbook</p>
+              <p class="footera2">
+                Hauptstraße 123 <br />
+                10777 Berlin - info@1cookbook.com
+              </p>
+            </span>
+            <span id="footergrid1">
+              <span id="twitter"></span>
+              <span id="facebook"></span>
+              <span id="pinterest"></span>
+            </span>
+            <span id="footerlayout2">
+              <span class="footera3">Handcrafted by</span>
+              <span class="yebo">#Group4</span>
+            </span>
+          </div>
+        </footer>
+      </div>
+    </div>
   </body>
-</html>
-
-<div class="container my-3">
-  <form>
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1">Your message</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your cookbook is great! I love it <3" rows="10"></textarea>
-    </div>
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-        Send
-      </button>
-  </form>
-</div>
-
-<footer class="footerlayout">
-  <div id="footerflex">
-    <span>
-      <p class="footera1">#1 Cookbook</p>
-      <p class="footera2">
-        Hauptstraße 123 <br />
-        10777 Berlin - info@1cookbook.com
-      </p>
-    </span>
-    <span id="footergrid1">
-      <span id="twitter"></span>
-      <span id="facebook"></span>
-      <span id="pinterest"></span>
-    </span>
-    <span id="footerlayout2">
-      <span class="footera3">Handcrafted by</span>
-      <span class="yebo">#Group4</span>
-    </span>
-  </div>
-</footer>
-</body>
 </html>
