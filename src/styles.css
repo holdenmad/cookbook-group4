@@ -149,6 +149,11 @@ body {
   margin: 2rem auto;
 }
 
+.card:hover {
+  background-color: rgb(40, 167, 69);
+  color: #f2f2f2;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 920px) {
