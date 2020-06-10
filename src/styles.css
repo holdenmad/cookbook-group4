@@ -3,10 +3,9 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background-color: #f2f2f2;
-  max-width: 1600px;
+
   margin-left: auto;
   margin-right: auto;
-
 }
 
 /* Header */
@@ -51,7 +50,89 @@ body {
   background-color: rgb(109, 109, 109);
 }
 
-/* Footer* /
+/* Footer */
+
+.footerlayout {
+  background: rgb(40, 167, 69);
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: #f2f2f2;
+}
+
+.footera1 {
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.footera2 {
+  margin-top: -12px;
+  font-size: 0.95em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.footera3 {
+  font-size: 0.95em;
+  font-style: italic;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.yebo {
+  font-family: "Pacifico", cursive;
+  font-size: 1.35em;
+  cursor: pointer;
+}
+
+#footerflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#footerlayout2 {
+  display: flex;
+  align-items: center;
+}
+
+#footergrid1 {
+  display: grid;
+  width: 150px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "twitter facebook pinterest";
+}
+
+#twitter {
+  grid-area: twitter;
+  background-image: url("https://raw.githubusercontent.com/NiklasL1/Transform-a-PSD/master/assets/rs3.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#facebook {
+  grid-area: facebook;
+  background-image: url("https://raw.githubusercontent.com/NiklasL1/Transform-a-PSD/master/assets/rs2.png");
+  width: 35px;
+  height: 34px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#pinterest {
+  grid-area: pinterest;
+  background-image: url("https://raw.githubusercontent.com/NiklasL1/Transform-a-PSD/master/assets/rs1.png");
+  width: 35px;
+  height: 34px;
+  cursor: pointer;
+}
 
 /* Recipe Page Main */
 
@@ -60,7 +141,6 @@ body {
 
 /* Main */
 .container-main {
-  max-width: 1600px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -68,8 +148,65 @@ body {
   margin: 2rem auto;
 }
 
-
 /* Media Queries */
+
+@media only screen and (max-width: 920px) {
+  .headerlayout {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: "Pacifico", cursive;
+  }
+  .searchsize {
+    max-width: 40vw;
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+  .smallmarg {
+    margin-left: 5%;
+    padding-top: 3%;
+  }
+  #footerlayout2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    white-space: nowrap;
+  }
+  .footerlayout {
+    background: rgb(40, 167, 69);
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #f2f2f2;
+  }
+  #footergrid1 {
+    display: grid;
+    width: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "twitter facebook pinterest";
+    margin-right: 2%;
+  }
+}
+
+/*Ü@media only screen and (max-width: 576px) {
+  #footergrid1 {
+    display: grid;
+    width: 150px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "twitter facebook pinterest";
+    margin-right: 2%;
+  }
+}*/
 
 /*@media only screen and (max-width: 990px) {
   .ingredients-sm {
