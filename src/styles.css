@@ -51,6 +51,10 @@ body {
   background-color: rgb(109, 109, 109);
 }
 
+#random-recipe {
+  cursor: pointer;
+}
+
 /* Footer */
 
 .footerlayout {
