@@ -23,42 +23,41 @@
 
     <div class="d-flex flex-column">
       <div class="p2">
-        <header id="headerpicture">
-          <nav class="col-6 smallmarg">
-            <!-- Dropdown menu -->
-            <div class="headerlayout">
-              <span class="dropdown">
-                <button
-                  class="btn btn-secondary dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Browse
-                </button>
-                <div
-                  id="offwhite"
-                  class="dropdown-menu"
-                  aria-labelledby="dropdownMenuButton"
-                >
-                  <a class="dropdown-item" href="index.html">Home</a>
-                  <a class="dropdown-item" id="random-recipe">Surprise me!</a>
-                  <a class="dropdown-item" href="recipe-page.html"
-                    >Vegan Wellington</a
-                  >
-                  <a class="dropdown-item" href="recipe-page2.html"
-                    >Spaghetti Bolognese</a
-                  >
-                  <a class="dropdown-item" href="recipe-page3.html"
-                    >Perfect Medium Steak</a
-                  >
-                  <a class="dropdown-item" href="contact.html">Contact</a>
-                </div>
-              </span>
+        <header id="headerpicture" class="smallmenucenter">
+      <nav class="col-6">
+        <!-- Dropdown menu -->
+        <div class="headerlayout">
+          <span class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Browse
+            </button>
+            <div
+              id="offwhite"
+              class="dropdown-menu"
+              aria-labelledby="dropdownMenuButton"
+            >
+              <a class="dropdown-item" href="index.html">Home</a>
+              <a class="dropdown-item" href="recipe-page.html"
+                >Vegan Wellington</a
+              >
+              <a class="dropdown-item" href="recipe-page2.html"
+                >Spaghetti Bolognese</a
+              >
+              <a class="dropdown-item" href="recipe-page3.html"
+                >Perfect Medium Steak</a
+              >
+              <a class="dropdown-item" href="contact.html">Contact</a>
+            </div>
+          </span>
 
-              <!-- Search form -->
+           <!-- Search form -->
               <form class="form-inline headerlayout">
                 <input
                   class="form-control mr-sm-2 searchsize"
@@ -240,7 +239,15 @@
                 </div>
 
                 <!--Share Button-->
-              </div>
+              <div class="d-flex">
+                <button
+                  type="button"
+                  id="share-button"
+                  class="btn btn-warning ml-auto mr-5 mb-3"
+                >
+                  Share <img src="src/images/lnr-mustache copy.svg" />
+                </button>
+                </div>
             </div>
           </div>
         </div>

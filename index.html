@@ -36,10 +36,10 @@
 
     <div class="d-flex flex-column">
       <div class="p2">
-        <header id="headerpicture">
-          <nav>
+        <header id="headerpicture" class="smallmenucenter">
+          <nav class="col-6">
+            <!-- Dropdown menu -->
             <div class="headerlayout">
-              <!-- Dropdown menu -->
               <span class="dropdown">
                 <button
                   class="btn btn-secondary dropdown-toggle"
@@ -52,7 +52,8 @@
                   Browse
                 </button>
                 <div
-                  class="dropdown-menu offwhite"
+                  id="offwhite"
+                  class="dropdown-menu"
                   aria-labelledby="dropdownMenuButton"
                 >
                   <a class="dropdown-item" href="index.html">Home</a>
@@ -73,10 +74,11 @@
               <!-- Search form -->
               <form class="form-inline headerlayout">
                 <input
-                  class="form-control mr-sm-2 searchsize offwhite"
+                  class="form-control mr-sm-2 searchsize"
                   type="search"
                   placeholder="Find a recipe..."
                   aria-label="Search"
+                  id="offwhite"
                 />
                 <button
                   class="btn btn-outline-success my-2 my-sm-0"

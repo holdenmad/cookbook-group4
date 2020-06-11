@@ -20,64 +20,62 @@
   </head>
   <body>
     <!--Header of Recipe Page-->
-
-    <div class="d-flex flex-column">
-      <div class="p2">
-        <header id="headerpicture">
-          <nav>
-            <!-- Dropdown menu -->
-            <div class="headerlayout">
-              <span class="dropdown">
-                <button
-                  class="btn btn-secondary dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Browse
-                </button>
-                <div
-                  class="dropdown-menu offwhite"
-                  aria-labelledby="dropdownMenuButton"
-                >
-                  <a class="dropdown-item" href="index.html">Home</a>
-                  <a class="dropdown-item" id="random-recipe">Surprise me!</a>
-                  <a class="dropdown-item" href="recipe-page.html"
-                    >Vegan Wellington</a
-                  >
-                  <a class="dropdown-item" href="recipe-page2.html"
-                    >Spaghetti Bolognese</a
-                  >
-                  <a class="dropdown-item" href="recipe-page3.html"
-                    >Perfect Medium Steak</a
-                  >
-                  <a class="dropdown-item" href="contact.html">Contact</a>
-                </div>
-              </span>
-
-              <!-- Search form -->
-              <form class="form-inline headerlayout">
-                <input
-                  class="form-control mr-sm-2 searchsize offwhite"
-                  type="search"
-                  placeholder="Find a recipe..."
-                  aria-label="Search"
-                />
-                <button
-                  class="btn btn-outline-success my-2 my-sm-0"
-                  type="submit"
-                >
-                  Search
-                </button>
-              </form>
+  
+  <div class="d-flex flex-column">
+   <div class="p2">
+    <header id="headerpicture" class="smallmenucenter">
+      <nav class="col-6">
+        <!-- Dropdown menu -->
+        <div class="headerlayout">
+          <span class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Browse
+            </button>
+            <div
+              id="offwhite"
+              class="dropdown-menu"
+              aria-labelledby="dropdownMenuButton"
+            >
+              <a class="dropdown-item" href="index.html">Home</a>
+              <a class="dropdown-item" href="recipe-page.html"
+                >Vegan Wellington</a
+              >
+              <a class="dropdown-item" href="recipe-page2.html"
+                >Spaghetti Bolognese</a
+              >
+              <a class="dropdown-item" href="recipe-page3.html"
+                >Perfect Medium Steak</a
+              >
+              <a class="dropdown-item" href="contact.html">Contact</a>
             </div>
-            <h1 class="headerlayout" id="cookbooktitle">#1 Cookbook</h1>
-          </nav>
-          <hr class="thickbar" />
-        </header>
-      </div>
+          </span>
+
+          <!-- Search form -->
+          <form class="form-inline headerlayout">
+            <input
+              class="form-control mr-sm-2 searchsize"
+              type="search"
+              placeholder="Find a recipe..."
+              aria-label="Search"
+              id="offwhite"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+        <h1 class="headerlayout" id="cookbooktitle">#1 Cookbook</h1>
+      </nav>
+      <hr class="thickbar" />
+    </header>
+   </div>
 
       <!--Middle of Recipe Page-->
       <!--Banner of recipe-->
@@ -210,37 +208,34 @@
                     the whole top of loaf about 1-inch apart and repeat in the
                     opposite direction.<br /><br />
 
-                    Place in the oven until heated throughout and the pastry is
-                    golden brown (about 30-35 minutes.) Let sit 10 minutes
-                    before gently cutting with a sharp knife. Don’t forget the
-                    gravy! ENJOY!!
-                  </p>
-                  <h2>Can it be made ahead of time?</h2>
-                  <p>
-                    Absolutely!! Just prepare it up to the baking point and
-                    refrigerate it in cling wrap or a tightly sealed container.
-                    The baking time will be approximately 20-30 minutes longer
-                    and I would reduce the heat to 375 °F. You can turn the heat
-                    up the last 15 minutes if the top needs more browning. To
-                    reheat fully cooked leftovers, cover the portion you’ll be
-                    eating and heat in the oven at 375 °F until heated
-                    throughout.
-                  </p>
-
-                  <div class="d-flex">
-                    <button
-                      type="button"
-                      id="share-button"
-                      class="btn btn-warning ml-auto mr-5 mb-3"
-                    >
-                      Share <img src="src/images/lnr-mustache copy.svg" />
-                    </button>
-                  </div>
-                </div>
-
-                <!--Share Button-->
+                Place in the oven until heated throughout and the pastry is
+                golden brown (about 30-35 minutes.) Let sit 10 minutes before
+                gently cutting with a sharp knife. Don’t forget the gravy!
+                ENJOY!!
+              </p>
+              <h2>Can it be made ahead of time?</h2>
+              <p>
+                Absolutely!! Just prepare it up to the baking point and
+                refrigerate it in cling wrap or a tightly sealed container. The
+                baking time will be approximately 20-30 minutes longer and I
+                would reduce the heat to 375 °F. You can turn the heat up the
+                last 15 minutes if the top needs more browning. To reheat fully
+                cooked leftovers, cover the portion you’ll be eating and heat in
+                the oven at 375 °F until heated throughout.
+              </p>
+<!--Share Button-->
+              <div class="d-flex">
+                <button
+                  type="button"
+                  id="share-button"
+                  class="btn btn-warning ml-auto mr-5 mb-3"
+                >
+                  Share <img src="src/images/lnr-mustache copy.svg" />
+                </button>
               </div>
             </div>
+
+
           </div>
         </div>
       </div>
@@ -287,5 +282,7 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <!--Custom JS-->
+    <script type="text/javascript" src="./src/index.js"></script>
   </body>
 </html>
