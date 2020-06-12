@@ -21,9 +21,7 @@ document.getElementById("random-recipe").addEventListener("click", function() {
 const shareButton = document.getElementById("share-button");
 const websitePark = "https://park.org/";
 
-document.querySelector("#share-button").addEventListener("click", function () {
+document.getElementbyId("share-button").addEventListener("click", function () {
     alert(`Shared! Thanks for sharing. :)`);
     console.log("Shared!")
 });
-
-console.log(document.getElementbyId("share-button"));
