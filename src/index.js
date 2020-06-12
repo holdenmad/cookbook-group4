@@ -3,15 +3,15 @@ document.getElementById("random-recipe").addEventListener("click", function() {
   switch (randomNumber) {
     case 1:
       document.location =
-        "https://holdenmad.github.io/cookbook-group4/recipe-page.html";
+        "recipe-page.html";
       break;
     case 2:
       document.location =
-        "https://holdenmad.github.io/cookbook-group4/recipe-page2.html";
+        "recipe-page2.html";
       break;
     default:
       document.location =
-        "https://holdenmad.github.io/cookbook-group4/recipe-page3.html";
+        "recipe-page3.html";
   }
 });
 
