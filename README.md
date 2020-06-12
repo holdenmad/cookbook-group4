@@ -1,7 +1,20 @@
 # WBS Coding School Cookbook Project - Week 1 - Group 4
 
-## Process
+## Lessons Learned
+1. Learned to use Bootstrap in practice
+   1. What's good, what's not so good
+   2. How the classes and utilities work
+   3. Divs are life
+   4. How to override different classes in Bootstrap
+2. Don't trust Codesandbox
+3. How JavaScript works on websites in practice
+4. How to mimic a text outline (text shadow and make them negative)
+5. How to collaborate with Git/Github
+   1. Pull requests, resolving merge conflicts
+6. Aligning things to the bottom is harder than you think
+7. 
 
+## Process
 1. Make repo
 2. Allow collaborators
 3. Talk about layout
@@ -12,12 +25,6 @@
 6. Use google drawings to figure out layout
 7. Use Bootstrap CDN for styling (try to use as much as possible)
 
-## Tasks
-1. Make skeleton of HTML
-2. Figure out CSS tags that we need
-3. Make menu and search bar
-4. Make grid
-
 
 ## Layout Front Page
 1. Header:
@@ -27,6 +34,7 @@
 3. Middle part with recipe cards
 4. Footer
 
+
 ## Layout Recipe Page
 1. Header:
    1. Menu - top left
@@ -35,25 +43,15 @@
 3. Ingredients left side
 4. Recipe instructions
 5. Share button
+   1. With JS DOM Manipulation
 6. Footer
+
 
 ## Work packages (who does what)
 - Header & Footer (Niklas)
 - Middle of front page (Madlen)
 - Middle of recipe page (Holden)
 
-
-## Recipe Page
-1. Same header
-2. Ingredients to the left side
-3. Recipe instructions to the right side (80% of page?)
-4. Small share button at the button
-   1. With JS DOM Manipulation
-5. "Share with your friends" with form element next to it
-
-## Class names
-
-- Name classes with "name-page-number"
 
 ## Recipes to use
 Vegan Welling Recipe: https://www.yummly.com/recipe/Vegan-Wellington-2620423#directions
