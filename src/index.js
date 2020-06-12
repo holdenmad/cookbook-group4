@@ -23,7 +23,7 @@ console.log(shareButton);
 
 if (shareButton) {
   shareButton.addEventListener("click", function() {
-    alert(`Shared! Thanks for sharing. :)`);
+    alert("Shared! Thanks for sharing. :)");
     console.log("Shared!");
   });
 }
