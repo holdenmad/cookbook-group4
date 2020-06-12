@@ -18,7 +18,7 @@ document.getElementById("random-recipe").addEventListener("click", function() {
 
 //Recipe-Page Share Button
 
-const shareButton = document.querySelector("#share-button");
+const shareButton = document.getElementById("share-button");
 const websitePark = "https://park.org/";
 
 document.querySelector("#share-button").addEventListener("click", function () {
