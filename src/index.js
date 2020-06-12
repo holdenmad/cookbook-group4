@@ -15,15 +15,15 @@ document.getElementById("random-recipe").addEventListener("click", function() {
   }
 });
 
-
 //Recipe-Page Share Button
 
-const shareButton = document.querySelector("#share-button");
-const websitePark = "https://park.org/";
+const shareButton = document.getElementById("share-button");
 
-document.querySelector("#share-button").addEventListener("click", function () {
+console.log(shareButton);
+
+if (shareButton) {
+  shareButton.addEventListener("click", function() {
     alert(`Shared! Thanks for sharing. :)`);
-    console.log("Shared!")
-});
-
-console.log(document.querySelector("#share-button"));
+    console.log("Shared!");
+  });
+}
