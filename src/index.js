@@ -26,4 +26,4 @@ document.querySelector("#share-button").addEventListener("click", function () {
     console.log("Shared!")
 });
 
-console.log(document.querySelector("#share-button"));
+console.log(document.getElementbyId("share-button"));
