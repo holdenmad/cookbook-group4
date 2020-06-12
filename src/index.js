@@ -1,5 +1,3 @@
-import "./styles.css";
-
 document.getElementById("random-recipe").addEventListener("click", function() {
   let randomNumber = Math.floor(Math.random() * 3);
   switch (randomNumber) {
