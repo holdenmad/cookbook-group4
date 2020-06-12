@@ -1,16 +1,22 @@
-document.getElementById("random-recipe").addEventListener("click", function() {
-  let randomNumber = Math.floor(Math.random() * 3);
-  switch (randomNumber) {
-    case 1:
-      document.location = "recipe-page.html";
-      break;
-    case 2:
-      document.location = "recipe-page2.html";
-      break;
-    default:
-      document.location = "recipe-page3.html";
-  }
-});
+const randomRecipe = document.getElementById("random-recipe");
+
+console.log(randomRecipe);
+
+if (randomRecipe) {
+  randomRecipe.addEventListener("click", function() {
+    let randomNumber = Math.floor(Math.random() * 3);
+    switch (randomNumber) {
+      case 1:
+        document.location = "recipe-page.html";
+        break;
+      case 2:
+        document.location = "recipe-page2.html";
+        break;
+      default:
+        document.location = "recipe-page3.html";
+    }
+  });
+}
 
 //Recipe-Page Share Button
 
