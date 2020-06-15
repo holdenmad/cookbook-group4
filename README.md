@@ -12,7 +12,6 @@
 5. How to collaborate with Git/Github
    1. Pull requests, resolving merge conflicts
 6. Aligning things to the bottom is harder than you think
-7. 
 
 ## Process
 1. Make repo
